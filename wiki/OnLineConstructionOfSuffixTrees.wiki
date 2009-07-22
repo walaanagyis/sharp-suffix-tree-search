@@ -1,0 +1,17 @@
+On-line construction of suffix trees
+
+= Algorithm notes =
+
+*We build the suffix tree of a string by building the suffix trees of the the string prefixes gradually as we scan the string from left to right, such that the suffix tree of the scanned part of the string is ready. The generation of this tree in the described fashion is based on the simple observation that the suffixes of a string T(i) = t_1,t_2,..., t_i can be obtained from the suffixes of the string T(i-1) =t_1, t_2, ..., t_i-1 by concatenating the symbol t_i at the of each suffix of T(i-1)
+
+*
+
+Add your content here.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
